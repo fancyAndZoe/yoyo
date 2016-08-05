@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dp"
+    android:padding="12dp">
+
+    <ImageView
+       android:id="@+id/img_icon"
+       android:layout_width="24dp"
+       android:layout_height="24dp"
+       android:layout_centerVertical="true"
+       android:src="@drawable/ic_share" />
+
+    <yoyocom.fancy.yoyo.widget.FzltTextView
+       android:id="@+id/txt_item"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/img_icon"
+       android:textColor="@color/white"
+       android:text="分享"
+       android:textAppearance="@style/TextViewCustomFont"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="20dp"
+       android:textSize="13sp"/>
+
+</RelativeLayout>

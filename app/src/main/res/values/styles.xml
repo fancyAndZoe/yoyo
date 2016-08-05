@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--<style name="YoyoTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:displayOptions">disableHome</item>
+        <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
+    </style>
+
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/fzltx.TTF</item>
+    </style>-->
+
+    <style name="TextViewCustomFont" parent="android:TextAppearance">
+        <item name="fontPath">fonts/fzltx.TTF</item>
+    </style>
+
+    <style name="MaterialPagerTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/main_backgroud</item>
+
+        <item name="android:statusBarColor" tools:targetApi="21">@color/primary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/drawerArrowColor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/drawerArrowColor</item>
+    </style>
+
+    <style name="MaterialPagerChildTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/main_backgroud</item>
+
+        <item name="android:statusBarColor" tools:targetApi="21">@color/primary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/drawerArrowColor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+
+    </style>
+
+</resources>

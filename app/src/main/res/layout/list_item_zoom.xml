@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:id="@+id/linear_zoom">
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="12dp"
+        >
+
+        <yoyocom.fancy.yoyo.widget.CircleImageView
+            android:id="@+id/img_head"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/head_3" />
+
+        <yoyocom.fancy.yoyo.widget.FzltTextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_head"
+            android:layout_marginLeft="8dp"
+            android:layout_alignTop="@+id/img_head"
+            android:textColor="@color/gray_1"
+            android:text="yoyo"/>
+
+        <yoyocom.fancy.yoyo.widget.FzltTextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_head"
+            android:layout_alignBottom="@+id/img_head"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/txt_name"
+            android:textColor="@color/gray_1"
+            android:gravity="bottom"
+            android:text="今日19：20"/>
+
+    </RelativeLayout>
+
+    <yoyocom.fancy.yoyo.widget.FzltTextView
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_head"
+        android:textColor="@color/gray_1"
+        android:gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:maxLines="2"
+        android:text="12344526254654667567658678"/>
+
+    <yoyocom.fancy.yoyo.widget.MyGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="3"
+        android:verticalSpacing="1dp"
+        android:scrollbars="none"
+        android:visibility="gone"/>
+
+    <yoyocom.fancy.yoyo.widget.FzltTextView
+        android:id="@+id/txt_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="评论一下"
+        android:textColor="@color/hint"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="#00000000"
+        android:textSize="15sp"/>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/primary"
+        android:layout_marginTop="2dp"/>-->
+
+    <!--<EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="评论一下"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/gray_1"
+        android:text="haha"
+        android:background="#843535"
+        android:enabled="true" />-->
+
+</LinearLayout>

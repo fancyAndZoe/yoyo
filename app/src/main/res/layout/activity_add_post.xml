@@ -1,0 +1,102 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <yoyocom.fancy.yoyo.widget.FzltEditText
+        android:id="@+id/edit_post_content"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="#ffffff"
+        android:gravity="top"
+        android:hint="说点什么吧..."
+        android:textColorHint="@color/hint"
+        android:textColor="@color/gray_1"
+        android:maxLength="140"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textSize="15sp" />
+
+    <yoyocom.fancy.yoyo.widget.FzltTextView
+        android:id="@+id/post_text_remain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:text="0/140"
+        android:textColor="@color/gray_1"
+        android:textSize="13sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/post_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/post_pic_container"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <yoyocom.fancy.yoyo.widget.FilterImageView
+                android:id="@+id/filter_img_picture"
+                android:layout_width="@dimen/size_100"
+                android:layout_height="@dimen/size_100"
+                android:src="@drawable/post_add_pic" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <yoyocom.fancy.yoyo.widget.FzltTextView
+        android:id="@+id/post_pic_remain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:text="0/9"
+        android:textColor="@color/gray_1"
+        android:textSize="13sp" />
+
+    <!--<View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dividing_line_width_height"
+        android:background="@color/mine_dividing_line_color" />-->
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/pagerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+    <yoyocom.fancy.yoyo.widget.AlbumViewPager
+        android:id="@+id/albumviewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/album_item_bg" />
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
