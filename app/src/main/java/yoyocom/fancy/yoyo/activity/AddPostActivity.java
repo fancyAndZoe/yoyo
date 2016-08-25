@@ -60,6 +60,7 @@ public class AddPostActivity extends BaseActivity {
     private HorizontalScrollView post_scrollview;
     private boolean isAdding = false;
     private Button btn_add;
+    private int change = 1;
 
     @Override
     protected void createView() {

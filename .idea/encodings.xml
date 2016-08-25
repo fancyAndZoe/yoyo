@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/build.gradle" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/MainActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/NavigationDrawerFragment.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/adapter/TravelListAdapter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/common/ImageUtils.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/common/LocalImageHelper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/common/MethodsCompat.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/common/StringUtils.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/tool/FontCustom.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/widget/AlbumViewPager.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/widget/CircleImageView.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/yoyocom/fancy/yoyo/widget/FzltTextView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/album_finish.9.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/albumset_preselected.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/albumset_selected.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/back.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btn_posts_camera_l.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dangkr_no_picture_small.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_back2.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_go.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/post_add_pic.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/post_pager_delete.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/progress_icon.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_white_corner.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/album_item_header_bar.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_album_pager.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_albumfoler.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/local_album.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/local_album_detail.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/post_dynamic.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/simple_list_item.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/materialviewpager/build.gradle" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/materialviewpagercontroller/build.gradle" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/libs/uil.jar" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/java/yoyocom/fancy/yoyolibrary/tools/DateUtils.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/java/yoyocom/fancy/yoyolibrary/tools/Operation.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/java/yoyocom/fancy/yoyolibrary/tools/ResponseResult.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/java/yoyocom/fancy/yoyolibrary/tools/SharePreferenceUtil.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/drawable" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/drawable-xhdpi" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/colors.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/dimens.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/standard_color.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/standard_dimens.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/strings.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yoyolibrary/src/main/res/values/styles.xml" charset="GBK" />
+  <component name="Encoding">
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
